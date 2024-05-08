@@ -6,6 +6,23 @@
   height: 40vmin;
   pointer-events: none;
 }
+.bilal a.carousel-control-next, .bilal a.carousel-control-prev {
+  display: none;
+}
+.bilal .carousel-indicators {
+  display: none;
+}
+.bilal .carousel-caption {
+  position: absolute;
+  right: 15%;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff !important;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-20%);
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
